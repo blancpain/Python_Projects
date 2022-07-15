@@ -3,6 +3,7 @@ import bokeh
 import matplotlib
 import pandas as pd
 
+print
 def get_historic_price(symbol, exchange='bitfinex', after='2018-09-01'):
     url = 'https://api.cryptowat.ch/markets/{exchange}/{symbol}usd/ohlc'.format(
         symbol=symbol, exchange=exchange)
